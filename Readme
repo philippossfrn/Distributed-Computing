@@ -10,7 +10,8 @@ Features:
 
 Set up:
 
--- MPI must be instaled.
+-- MPI must be installed.
+-- Needs at least one host to run (must be at myhosts.txt file)
 
 Install MPI:
 
