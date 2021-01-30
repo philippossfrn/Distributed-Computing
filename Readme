@@ -1,0 +1,26 @@
+A Distributed System for storage/upload and retrieve files using 
+Message Passing Interface.
+
+Features:
+
+-- Runs with multiple clients and servers.
+-- Always there is a leader election for master server.
+-- Clients ask for jobs from testfiles.
+-- Using Interesting algorithms.
+
+Set up:
+
+-- MPI must be instaled.
+
+Install MPI:
+
+Ubuntu/Debian/Kali/Raspbian: apt-get install openmpi-bin
+
+Run instructions:
+
+-- compile with "make all" command and run each test separate using command
+lines args
+
+Easy way: run available  Shell Scripts: e.g ./1o_test.sh 
+
+
